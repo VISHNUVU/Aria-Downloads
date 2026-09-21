@@ -2,7 +2,7 @@
 
 Public downloads and signed Sparkle updates for Aria, an on-device AI chat app. The app source is maintained separately.
 
-[Download Aria 1.0.4](https://github.com/VISHNUVU/Aria-Downloads/releases/download/updates/Aria-1.0.4-1004.zip) · [All downloads](https://github.com/VISHNUVU/Aria-Downloads/releases/tag/updates)
+[Download Aria 1.0.5](https://github.com/VISHNUVU/Aria-Downloads/releases/download/updates/Aria-1.0.5-1005.zip) · [All downloads](https://github.com/VISHNUVU/Aria-Downloads/releases/tag/updates)
 
 ## Requirements
 
@@ -21,3 +21,5 @@ Conversations are saved locally. An older app without this feed requires a one-t
 Version 1.0.3 adds model download progress, preparation status, and clearer retry guidance when setup fails.
 
 Version 1.0.4 adds chat search, custom chat names, plain-text export, inline Markdown, and fenced code blocks with Copy Code.
+
+Version 1.0.5 adds a Model selector for Qwen 2.5 0.5B and 1.5B (4-bit). It remembers the last successfully loaded model, preserves chats, and prevents switching during a reply. The larger model downloads on first use.
